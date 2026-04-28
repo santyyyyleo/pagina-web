@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf_8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+      <title>formulario</title>
+
+</head>
+<body>
+    
+      
+     <nav>
+       <a href="index.html">inicio//</a> 
+       <a href="empresa.html">empresa//</a> 
+       <a href="catalogo.html">nuestro catalogo//</a> 
+       <a href="video.html">video//</a> 
+       <a href="formulario.html">formulario//</a> 
+       <a href="multimedia.html">multimedia//</a> 
+       
+
+     </nav> 
+
+     <h1> ¿quieres trabajar con nosotros? </h1>
+     
+     <br><br>
+      
+       <fieldset>
+       
+      <legend> completa este formulario</legend>
+
+     <form>
+
+       <label for = "nombre">nombre:</label>
+       <input type ="text">
+       <br><br>
+
+       <label for = "apellido">apellido:</label>
+       <input type ="text">
+       <br><br>
+
+       <label for = "edad"> edad: </label>
+       <input type = "number">
+       <br> <br>
+
+       <label for="genero">genero</label>
+       <select name="genero" id="genero"> 
+
+        <option value = "masculino">masculino</option>
+        <option value = "femenino">femenino</option>
+        <option value = "otro">otro</option>
+       
+       </select>
+
+        <br><br>
+
+       <label for="email">correo electronico:</label>
+       <input type ="email">
+       
+        <br><br>
+
+        <label for = "telefono"> numero de telefono: </label>
+        <input type = "tel">
+        <br><br>
+
+      </fieldset>
+
+      <fieldset>
+
+      <legend>datos profesionales</legend>
+
+       <label for = "profesion">se postula a:</label>
+        <select name="profesion" id="profesion">
+
+            <option value = "vendedor/a de productos">vendedor/a de productos</option>
+            <option value = "soporte tecnico">soporte tecnico</option>
+            <option value = "community manager">community manager</option>
+            <option value = "logistica y envios">logistica y envios</option>
+
+        </select>
+        <br><br>
+
+       <label for = "nivel de experiencia">nivel de experiencia:</label> <br>
+        <input type = "radio" name = "experiencia"> sin experiencia <br>
+        <input type = "radio" name = "experiencia"> experiencia media <br>
+        <input type = "radio" name = "experiencia"> experiencia avanzada <br><br><br>
+        
+       <label for = "mensaje de presentacion">mensaje de presentacion:<textarea id="mensaje de presentacion"></textarea></label> <br><br>
+        
+       <label for = "envianos tu cv">envianos tu CV:</label>
+       <input type = file id = "curriculum" accept="pdf">
+
+       <br><br>
+
+       <button type = "submit"> enviar CV</button>
+       <button type = "reset"> limpiar CV</button>
+        
+
+        </fieldset>
+
+
+     </form>
+    
+
+
+</body>
